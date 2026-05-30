@@ -1,0 +1,26 @@
+# ─── Secrets — NEVER commit (contracts/.env & oracle/.env hold the deployer key) ───
+.env
+.env.*
+!.env.example
+
+# ─── Node ───
+node_modules/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# ─── Foundry (contracts/) ───
+out/
+cache/
+broadcast/
+
+# ─── Vite / frontend build ───
+dist/
+*.local
+
+# ─── OS / editor ───
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

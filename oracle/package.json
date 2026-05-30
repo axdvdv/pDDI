@@ -1,0 +1,13 @@
+{
+  "name": "pddi-oracle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "pDDI Drama Score oracle feeder for Monad testnet",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env feeder.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
